@@ -2,7 +2,7 @@
 id: 23k5vmwq7bo0ftxtykskeyb
 title: REACT - SATURDAY
 desc: ''
-updated: 1696786565124
+updated: 1696786976234
 created: 1696686177991
 ---
 
@@ -58,14 +58,52 @@ Counter.defaultProps = {
   title: 'Counter',
 };
 ```
-- I struggle with event handler functionality. I continued to get a stack overflow-esque error whenever I attempted to utilize if, else statements. Switched the switch cases and received same result - what I was missing was setting an anonymous function within the onClick invokation. Example: 
+- I struggled with event handler functionality. I continued to get a stack overflow-esque error whenever I attempted to utilize if, else statements. Switched the switch cases and received same result - what I was missing was setting an anonymous function within the onClick invokation. Example: 
 
 ```
-
+const handleClick = (action) => {
+    switch (action) {
+      case 'Increment':
+        counter((prevState) => prevState + 1);
+        break;
+      case 'Decrement':
+        counter((prevState) => prevState - 1);
+        break;
+      case 'Reset':
+        counter((prevState) => prevState - prevState);
+        break;
+      default:
+        break;
+    }
+  };
+  return (
+    <div
+      className="text-center d-flex flex-column justify-content-center align-content-center"
+      style={{
+        height: '90vh',
+        padding: '30px',
+        maxWidth: '400px',
+        margin: '0 auto',
+      }}
+    >
+      <h1> {title} </h1>
+      <h1> {counterValue} </h1>
+      <button type="button" onClick={() => handleClick('Increment')}> Increment </button>
+      <button type="button" onClick={() => handleClick('Decrement')}> Decrement </button>
+      <button type="button" onClick={() => handleClick('Reset')}> Reset </button>
+    </div>
+  );
 ```
+
+Notice:
+```
+onclick={() => handleClick('action')}
+```
+You left out the anonymous function declaration and just incoked the handleClick function, created outside to return block. I'm still not entirely sure why this is needed; however, it mirrors the need for a function invokation within an eventListener. For now, use this methodology until it doesn't work. 
+
 
 ## Counter - In Summary
-> Teaches you the basics of creating components, setting prop types, and creating event handlers. 
+> Teaches you the basics of creating components, setting prop types, and creating event handlers. It is a good introduction to how React reduces the complexity of manipulating the DOM through the creation of components. You struggled a lot with basic principles, but it looks like you're gaining some fluency. Continue to use this lesson as a guide in the future.
 
 ## Joke Generator
 Joke Generator - Example of UseEffect
