@@ -2,7 +2,7 @@
 id: qm32800ue1htwii4vwoi0fw
 title: REACT - DAY ONE & TWO
 desc: ''
-updated: 1696784460051
+updated: 1696787191813
 created: 1696287176805
 ---
 
@@ -254,6 +254,7 @@ Loading.defaultProps = {
 - You can utilize a variable you defined by using curly braces.
 - Think of invoking curly braces as 'entering JS land'. You can add any JS expression within the curly braces. It's kinda like using template literals. 
 - As you can see in the example below, you're referencing a variable.
+- The reason you don't see .jsx as an extension is because BABEL is included in every template/React application creation package. No need to declare that a file is .jsx. Babel is smart enough to know that it is.
 
 ```
 // function Header({title}) {
