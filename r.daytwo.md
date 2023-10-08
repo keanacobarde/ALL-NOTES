@@ -1,8 +1,8 @@
 ---
 id: 23k5vmwq7bo0ftxtykskeyb
-title: REACT - SATURDAY
+title: Daytwo
 desc: ''
-updated: 1696786976234
+updated: 1696792060077
 created: 1696686177991
 ---
 
@@ -104,6 +104,52 @@ You left out the anonymous function declaration and just incoked the handleClick
 
 ## Counter - In Summary
 > Teaches you the basics of creating components, setting prop types, and creating event handlers. It is a good introduction to how React reduces the complexity of manipulating the DOM through the creation of components. You struggled a lot with basic principles, but it looks like you're gaining some fluency. Continue to use this lesson as a guide in the future.
+
+
+## Aside - Pizza Menu
+
+> Further cementing your understanding of components and React's repeatablility. There was once a separation - each file controlled its own segment of development. CSS for styling. HTML for structure. JS for functionality. However, as you began seeing in your traversal through Vanilla JS - JS started taking control over many aspects of HTML. Very quickly, you began dynamically rendering HTML through the usage of DOM manipulation in JS files. Think back to old projects where this happened: 
+
+_Git Sub_
+
+> Setting the HTML to be rendered in the Overview within the JS file - NOT the HTML file.
+
+```
+const aboutMe = () => {
+const domString = `<div style="font-family:'Courier New'; margin: 0.7rem 0 0 0.5rem;"><h6 style="display:flex;"><span class="material-symbols-outlined">
+stadia_controller
+</span>gregGroks13/greg.md</h6>
+<h1>👋 Hi, I'm Greg...</h1>
+<hr>
+</div>
+<div class="aboutme-header-img">
+<img class="aboutme-header-img" style="margin: 1rem;" src="assets/images/github-header-image.png">
+</div>
+<div style="font-family:'Courier New';padding:0.5rem;"><p>
+As a software engineer, I bring a unique blend of capabilities to the digital realm. Here's what I'm all about:
+Problem-Solving Wizardry 🧙‍♂️<br><br>
+
+Got a complex challenge? I thrive on breaking down problems into bite-sized pieces and crafting elegant solutions. My algorithmic prowess helps me navigate through the maze of logic to find the optimal path.
+Multilingual Maestro 💬<br><br>
+
+Whether it's Python, JavaScript, Java, or even the nuances of SQL, I'm fluent in a multitude of programming languages. I love conversing with code and turning abstract ideas into functional systems.
+End-to-End Enlightenment 🌐<br><br>
+
+From the front-end dazzle to the back-end stability, I've got your software's entire journey covered. Crafting user-friendly interfaces is my jam, and optimizing databases is my delight.
+Learning at Lightspeed 🌟<br><br>
+
+The tech world evolves faster than lightspeed travel, but that's where I thrive. I adapt to new technologies, frameworks, and tools like a digital chameleon, ensuring that your software stays at the cutting edge.
+Collaborative Cohort 🤝<br><br>
+
+Teamwork makes the code work! I seamlessly integrate into development teams, communicating ideas, sharing insights, and contributing effectively to ensure the collective success of projects.
+Let's Code the Future! ⏩<br><br>
+
+Whether you need a quick bug fix or a comprehensive software solution, I'm here to assist. Let's collaborate and create digital marvels that redefine the boundaries of possibility!</p></div>`
+renderToDom(".aboutMe", domString); 
+}
+```
+
+This is an example of how stupidly clunky rendering to the DOM dynamically can get. This is why React exists - to leverage the control JS has over the DOM...without having to interact with the DOM at all!
 
 ## Joke Generator
 Joke Generator - Example of UseEffect
