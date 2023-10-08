@@ -2,7 +2,7 @@
 id: 23k5vmwq7bo0ftxtykskeyb
 title: REACT - SATURDAY
 desc: ''
-updated: 1696784294983
+updated: 1696786565124
 created: 1696686177991
 ---
 
@@ -32,8 +32,40 @@ Since you weren't really able to follow along, here's some of the steps that you
 
 > Some of the issues I encountered:
 
-- Understanding how to call on and use props. 
+- Understanding how to call on and use props. Had to look back at the Joke Generator to figure this out. What is passed through the component function, deconstructed - is a prop. Examples: 
 
+An example of props used when components are called upon.
+
+```
+      <Counter title={"Keana's Counter"} />
+      <Counter title={"Salem's Counter"} />
+      <Counter title={"Everyone's Counter"} />
+```
+
+An example of props, when introduced to a component function. 
+
+```
+export default function Counter({ title }) 
+```
+- Remember: each component has access to its own prop object. There is only one prop object per component. You also, TS style, need to specific the data types of props within propType objects. An example: 
+
+```
+Counter.propTypes = {
+  title: PropTypes.string,
+};
+
+Counter.defaultProps = {
+  title: 'Counter',
+};
+```
+- I struggle with event handler functionality. I continued to get a stack overflow-esque error whenever I attempted to utilize if, else statements. Switched the switch cases and received same result - what I was missing was setting an anonymous function within the onClick invokation. Example: 
+
+```
+
+```
+
+## Counter - In Summary
+> Teaches you the basics of creating components, setting prop types, and creating event handlers. 
 
 ## Joke Generator
 Joke Generator - Example of UseEffect
