@@ -247,6 +247,20 @@ export default Home;
 
 > Setup is due Monday 
 
+## Setup - Authors
+- How are we going to approach this? 
+> Look at how the Books is setup. What do the components look like? What components are even included? You could even use Almost Amazon as a guide for this. The following components I see within books is: 
+
+- Edit (directory)
+  > [firebaseKey].js
+- [firebaseKey].js
+- new.js
+
+First: I have no idea how dynamic routes work...which is what I'm assuming the bracketed files are. 
+
+- You need to create an author card. This is where the dynamic routes are referenced in. 
+
+
 ## Hooks - What are they? 
 
 They help hook into the state/other aspects of React. You're hooking into the data and performing some sort of functionality on it. 
@@ -259,3 +273,48 @@ Don't ever touch the next.js config. Use the regular image tag and then disable 
 Dynamic Routing
 
 ![Alt text](image-9.png)
+
+# 10/09/2023 - REACT: Simply Books
+
+## Things to Leave at the Door
+- Him. Ugh. Girlie, you're doing bigger and better on your own.
+- Some changes are coming to NSS, and you'll be around for when things are changing.
+- Going over Create today in class
+- Take note of where E23 is. It's where you're gonna be next. Start thinking about backend.
+- Keep going. Don't get complacent.
+
+### 01 - React
+
+> GET (READ) by uid
+
+READING in Vanilla JS can be complicared. However, how it's handled in React is even More so complicated. The first thing you need to do is useState(). This will allow it so that, whenever changes are made, React will make changes to the DOM automatically without any re-rendering. 
+
+- First: useState()
+- Second: useRoute(), a custom hook from Next JS that's used in routing. Like how useAuth() is a custom hook, useRouter() is as well. 
+- Next: Obtaining FBK through router query property. useRouter() produces an object.
+- Forth: useEffect(). This hook tells the DOM to re-render whenever a certain function is invoked. The second parameter, which is set by an empty array by default, will tell React what values it needs to watch for re-render.
+
+> What's a dependency array? 
+The second parameter of the useEffect() hook. If a specific value changes, the function will re-render. Sometimes, it's the reason for re-rendering issues.
+
+- Fifth: Moving on to return statement. This is where you're creating JavaScript.
+- Sixth: What's up with the questions mark when querying merged data calls? - This is known as an 'Optional Chaining Operator'.
+```
+{bookDetails.authorObject?.last_name}
+```
+It's basically telling the browser to hold on and wait for the second render after this asynchronus process.
+
+REMEMBER - it's the little things. Know how to handle data when the API call doesn't have anything to resolve. Recall how the API gives you the data and convert accordingly. These are little things from Vanilla JS that will still follow you around. Don't forget them! 
+
+### 02 - React
+
+> DELETE (DELETE) by uid
+
+You solved the issue with this pretty quickly. Within the 'deleteThisBook()' function, you forgot to invoke the onUpdate() function. This made it so that the function passed through the prop wouldn't execute. Other than that, this was pretty straightforward. It works similarly to Delete within 
+
+Importing Images: A Note
+- If you want to import an image, you'll have to:
+1. Import the file from the folder.
+2. Call the image through {dog.src}
+
+# 10/10/2023 - REACT: Simply Books
