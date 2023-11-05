@@ -2,7 +2,7 @@
 id: ei86mdob3ltg4whtqjry0af
 title: ORDERS AND MERGED DATA IN REACT
 desc: ''
-updated: 1697302760068
+updated: 1698708344879
 created: 1697293182121
 ---
 
@@ -43,3 +43,13 @@ My questions is always - in what ways would we utilize these API calls if we wer
 
 EXAMPLE OF ORDERDETAILS
 ![Alt text](image-13.png)
+
+
+Capstone Proposals
+Start drafting your idea as soon as possible.
+
+REQUIREMENTS
+- The working title of your application
+- Paragraph explaining your application and how it will work
+- Paragraph talking about your motivation for building this project (what problem does it solve, why are you personally invested in this).
+- Paragraph talking about the rough features you want to build (and identify whether you think each is a stretch or not).
