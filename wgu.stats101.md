@@ -2,7 +2,7 @@
 id: o74o97zt0zemcsdeapf1438
 title: STATISTICS
 desc: ''
-updated: 1699237593054
+updated: 1699238767857
 created: 1699234864072
 ---
 
@@ -77,3 +77,39 @@ Because Josephina's population is all pet owners, she needs to use the data she 
 What do you think? Can Josephina assume that because 78% of the people in the dog park would be interested in footwear for their pets, that 78% of the pet owner population also would be interested? This is a tricky question. Technically, the statistic 78% is an accurate sample of the population. However, other factors may need to be considered. For example, it sounds like Josephina only surveyed dog owners, but her business is for all pets. To get a more accurate parameter, Josephina may need to conduct her survey with other pet owners.
 
 On the other hand, Josephina can get more accurate results if she surveyed people at the movie theater, asking first if they owned a pet, and then only asking the pet owners if they would be interested in footwear for their pets. When she does this, she finds that about 64% of the pet owners surveyed are interested in footwear for their pets. She can more accurately infer that 64% of the pet owners in the town would also be interested. This means that she can use the statistic, 64%, to infer the parameter, 64%.
+
+## 1.9 - THE PURPOSE OF STATISTICAL MODELS
+
+> The purpose of statistics is to describe and/or predict data. 
+
+![Alt text](image-1.png)
+
+* NOTE - STATISTICAL MODELS ARE USED ONLY IN INFERENTIAL STATISTICS. Note the prediction. Descriptive statistics is focused on gleaning more information/describing a population - not predicting outcome. 
+
+* ANOTHER NOTE - MODELS ARE IDEALISTIC. REALITY IS ALWAYS A LOT MORE COMPLICATED.
+
+
+TYPES OF STATISTICAL MODELS
+
+![Alt text](image-2.png)
+
+VARIABLES
+
+- Response: The observed variable, or the variable in question. Similar to a dependent variable. 
+
+- Exaplanatory: A variable or a set of variables that can influence the response variable. Similar to the independent variable in the scientific method. They can't always be controlled or change.
+
+- Collected in the form of data that can either be cateogrical or quantitative. 
+
+| Categorical      | Quantitative |
+| :---        |    :----:   | 
+| - Ordinal or nominal      | - Discrete or continuous       | 
+
+
+Nominal Data: Assigns numerical values to objects. 
+
+Ordinal Data: Data that can be ordered or ranked but not measured. 
+
+Discrete Data: Data that cannot be divided. Discrete and can only occur in specific values. 
+
+Continuous Data: Data that can be infinitely divided. Does not have any value distinction.
