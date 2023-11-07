@@ -2,7 +2,7 @@
 id: o74o97zt0zemcsdeapf1438
 title: STATISTICS
 desc: ''
-updated: 1699238767857
+updated: 1699330464608
 created: 1699234864072
 ---
 
@@ -104,6 +104,7 @@ VARIABLES
 | Categorical      | Quantitative |
 | :---        |    :----:   | 
 | - Ordinal or nominal      | - Discrete or continuous       | 
+
 
 
 Nominal Data: Assigns numerical values to objects. 
