@@ -2,7 +2,7 @@
 id: x5fb7qzjf0tvyysb818w787
 title: Computer Science 109 - Introduction to Programming
 desc: ''
-updated: 1699331097026
+updated: 1699332251708
 created: 1699330491987
 ---
 
@@ -49,5 +49,6 @@ so the 16-bit integer value of 65 will be stored in letterValue. */
 short letterValue = (short) firstLetter;
 ```
 
-
 # CHAPTER THREE - CONDITIONALS AND LOOPS IN PROGRAMMING
+
+You know a lot of these concepts from JavaScript and your experience with other programming languages.
