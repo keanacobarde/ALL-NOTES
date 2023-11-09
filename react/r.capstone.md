@@ -40,3 +40,6 @@ Manic Questions:
 - You should be able to move expenses and choose which category it belongs to. Will this cause any issues on rendering?
 - Chart.js??? Are we using it? Are we creating a simple bar graph to track which categories you spend the most money on?
 - What is the timeline page even going to look like?
+
+UPDATED ERD - SIMPLIFIED
+![Alt text](image-23.png)
