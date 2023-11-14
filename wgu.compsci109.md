@@ -2,7 +2,7 @@
 id: x5fb7qzjf0tvyysb818w787
 title: Computer Science 109 - Introduction to Programming
 desc: ''
-updated: 1699332251708
+updated: 1699569784096
 created: 1699330491987
 ---
 
@@ -51,4 +51,6 @@ short letterValue = (short) firstLetter;
 
 # CHAPTER THREE - CONDITIONALS AND LOOPS IN PROGRAMMING
 
-You know a lot of these concepts from JavaScript and your experience with other programming languages.
+You know a lot of these concepts from JavaScript and your experience with other programming languages. Don't spend too much time re-inventing the wheel.
+
+> What IDE do you even use with Java, anyways?
