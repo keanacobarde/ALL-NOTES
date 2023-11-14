@@ -43,3 +43,6 @@ Manic Questions:
 
 UPDATED ERD - SIMPLIFIED
 ![Alt text](image-23.png)
+
+### PROJECT PLANNING
+> The problem of separating tickets.
