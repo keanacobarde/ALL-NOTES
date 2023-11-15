@@ -2,7 +2,7 @@
 id: o74o97zt0zemcsdeapf1438
 title: STATISTICS
 desc: ''
-updated: 1699330464608
+updated: 1700021342465
 created: 1699234864072
 ---
 
@@ -114,3 +114,20 @@ Ordinal Data: Data that can be ordered or ranked but not measured.
 Discrete Data: Data that cannot be divided. Discrete and can only occur in specific values. 
 
 Continuous Data: Data that can be infinitely divided. Does not have any value distinction.
+
+# Chapter Three: Tables and Plots
+
+### Frequency and Relative Frequency Tables
+
+> Frequency Table: A frequency table is a chart that shows the popularity or mode of a certain type of data. 
+
+> Relative Frequency Table: a chart that shows the popularity or mode of a certain type of data based on the population sampled. You're looking at a number of times a specific event occurs compared to the total number of events.
+
+![Alt text](image-10.png)
+
+Twenty people in total tasted the steak. This is the frequency when compared to the number of total individuals.
+
+### How to Calculate Percent Increase
+Formula: Percent Increase = [(Frequency 2 - Frequency 1) / Frequency 1] ∗ 100
+
+![Alt text](image-11.png)
