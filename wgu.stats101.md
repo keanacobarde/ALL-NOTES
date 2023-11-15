@@ -2,7 +2,7 @@
 id: o74o97zt0zemcsdeapf1438
 title: STATISTICS
 desc: ''
-updated: 1700021342465
+updated: 1700024016151
 created: 1699234864072
 ---
 
@@ -131,3 +131,21 @@ Twenty people in total tasted the steak. This is the frequency when compared to 
 Formula: Percent Increase = [(Frequency 2 - Frequency 1) / Frequency 1] ∗ 100
 
 ![Alt text](image-11.png)
+
+
+### Making Arguments & Predictions from Univariate Data
+
+First: What is 'univariate data'? - "one variable in a data set that is analyzed to describe a scenario or experiment"
+
+![Alt text](image-12.png)
+
+Measures of central tendency essentially just refer to mean, median, and mode and what these tendencies say about the data set itself.
+
+### What is Bivariate Data? - Definition & Examples
+Bivariate Data: deals with two variables that can change and are compared to find relationships
+
+Has independent and dependent variables.
+
+### Joint, Marginal & Conditional Frequencies: Definitions, Differences & Examples
+
+![Alt text](image-13.png)
