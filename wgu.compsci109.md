@@ -2,7 +2,7 @@
 id: x5fb7qzjf0tvyysb818w787
 title: Computer Science 109 - Introduction to Programming
 desc: ''
-updated: 1699569784096
+updated: 1699938063573
 created: 1699330491987
 ---
 
@@ -54,3 +54,63 @@ short letterValue = (short) firstLetter;
 You know a lot of these concepts from JavaScript and your experience with other programming languages. Don't spend too much time re-inventing the wheel.
 
 > What IDE do you even use with Java, anyways?
+- Eclipse
+- NetBeans
+- IntelliJ
+- VSCode (with some caveats)
+
+# CHAPTER FOUR - ARRAYS IN JAVA
+
+
+### Java ArrayList Add Method: Code & Examples
+> ArrayList: A class that allows for an array to be dynamic. 
+
+You're declaring the ArrayList method, after importing it, declaring the data type of the array and the label, then you're standing a new ArrayList instance with the data type and the length.
+
+```
+ArrayList <String> employees = new ArrayList <String>(5);
+```
+
+ArrayList in action.
+![Alt text](image-7.png)
+
+You can utilize the .add() to add elements to the array. If the index isn't specified, Java just adds it to the end of the array, and increases the amount of buckets by one.
+
+.add() takes two parameters, by the way! - it takes an index as well as the element that goes into the bucket.
+
+```
+employees.add("Jane Eyre");
+employees.add("Sherlock Holmes");
+employees.add("Edmond Dantes");
+employees.add("Jean Valjean");
+employees.add("Sam Spade");
+```
+
+ArrayList of Classes
+
+```
+//*** ArrayList of Classes
+ArrayList <Artist> artist = new ArrayList < > ();
+artist.add(new Artist(1025, "REO Speedwagon"));
+artist.add(new Artist(9067, "Meat Loaf"));
+```
+
+
+
+```
+//show arraylist size
+System.out.println("Size = " + employees.size());
+ 
+//loop through list and display
+for (String counter : employees) {
+ System.out.println("Employee = " + counter);
+}
+```
+
+> Setting up Eclipse IDE - Hello, World!
+
+I honestly didn't think they'd take the GUI approach to setting up the Java Class that we're creating. I wonder how close the idea of 'Class' in Java is to the idea of what a class is in JavaScript. They're two completely different languages, but they have object-oriented paradigms. 
+
+![Alt text](image-8.png)
+
+![Alt text](image-9.png)

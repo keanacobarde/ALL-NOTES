@@ -2,7 +2,7 @@
 id: u8m80luizy21q5ud1f5fb8n
 title: Capstone
 desc: ''
-updated: 1699222590761
+updated: 1700020600295
 created: 1699217179918
 ---
 ## IMPORTANT DATES
@@ -18,7 +18,7 @@ created: 1699217179918
 
 [!] MVP SOFT DEMOS AND NOTIFICATION OF PROMOTION TO BACKEND
 
-# CAPSTONE PLANNING AND WIREFRAMING PHASE
+# CAPSTONE PLANNING AND WIREFRAMINpG PHASE
 
 ALL DRAFT WIREFRAMING IS DONE ON GOODNOTES WILL BE CONVERTED TO FIGMA.
 
@@ -46,3 +46,5 @@ UPDATED ERD - SIMPLIFIED
 
 ### PROJECT PLANNING
 > The problem of separating tickets.
+
+- Solved through incorperating both governing functionality and assigning it to the necessary components.
