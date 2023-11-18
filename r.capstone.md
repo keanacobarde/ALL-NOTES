@@ -2,7 +2,7 @@
 id: u8m80luizy21q5ud1f5fb8n
 title: Capstone
 desc: ''
-updated: 1700020600295
+updated: 1700316667578
 created: 1699217179918
 ---
 ## IMPORTANT DATES
@@ -48,3 +48,21 @@ UPDATED ERD - SIMPLIFIED
 > The problem of separating tickets.
 
 - Solved through incorperating both governing functionality and assigning it to the necessary components.
+
+### MATERIAL UI IMPLEMENTATION
+
+> Implemented in a test-repo first. Was able to get it installed without any errors.
+
+Theme Object: 
+
+You can find this on the Material UI website through Default Theme Viewer
+
+![Alt text](image-15.png)
+
+> Adding themes:
+
+- Import the createTheme function and ThemeProvider component.
+- Target the theme you want to override from the theme object. Set the primary color. 
+
+
+![Alt text](image-14.png)

@@ -2,7 +2,7 @@
 id: x5fb7qzjf0tvyysb818w787
 title: Computer Science 109 - Introduction to Programming
 desc: ''
-updated: 1699938063573
+updated: 1700264651646
 created: 1699330491987
 ---
 
@@ -109,7 +109,7 @@ for (String counter : employees) {
 
 > Setting up Eclipse IDE - Hello, World!
 
-I honestly didn't think they'd take the GUI approach to setting up the Java Class that we're creating. I wonder how close the idea of 'Class' in Java is to the idea of what a class is in JavaScript. They're two completely different languages, but they have object-oriented paradigms. 
+I honestly didn't think they'd take the GUI approach to setting up the Java Class that we're creating. I wonder hopw close the idea of 'Class' in Java is to the idea of what a class is in JavaScript. They're two completely different languages, but they have object-oriented paradigms. 
 
 ![Alt text](image-8.png)
 
